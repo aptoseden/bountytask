@@ -136,7 +136,7 @@ module tasklist_addr::bountytask {
     // assert task's publiser is signer_address
     assert!(task_record.publisher == signer_address, ETASK_STATUS_PERMISSION_DENIED);
     task_record.comment = comment;
-    if(is_pass) {
+    if(!is_pass) {
       task_record.status = TASK_TAKED;
     } else {
       task_record.status = TASK_COMPLETED;
