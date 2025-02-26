@@ -1,0 +1,30 @@
+---
+compiled_package_info:
+  package_name: bounty_task_list
+  address_alias_instantiation:
+    Extensions: "0000000000000000000000000000000000000000000000000000000000000001"
+    aptos_framework: "0000000000000000000000000000000000000000000000000000000000000001"
+    aptos_std: "0000000000000000000000000000000000000000000000000000000000000001"
+    aptos_token: "0000000000000000000000000000000000000000000000000000000000000003"
+    core_resources: 000000000000000000000000000000000000000000000000000000000a550c18
+    std: "0000000000000000000000000000000000000000000000000000000000000001"
+    tasklist_addr: 93f9ec4911774878591feadc74d077d9a37cce882bd692c30f595ff71a01fb49
+    vm_reserved: "0000000000000000000000000000000000000000000000000000000000000000"
+  source_digest: 0D4C25C7CBE7126BBF74EC3B9B8073485C53CAC37762F478C517102604B201AF
+  build_flags:
+    dev_mode: false
+    test_mode: false
+    generate_docs: false
+    generate_abis: false
+    install_dir: ~
+    force_recompilation: false
+    additional_named_addresses:
+      tasklist_addr: 93f9ec4911774878591feadc74d077d9a37cce882bd692c30f595ff71a01fb49
+    architecture: ~
+    fetch_deps_only: false
+    skip_fetch_latest_git_deps: false
+    bytecode_version: ~
+dependencies:
+  - AptosFramework
+  - AptosStdlib
+  - MoveStdlib
